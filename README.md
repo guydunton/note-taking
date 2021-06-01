@@ -2,7 +2,7 @@
 
 This repo contains the scripts and commands I use to take notes
 
-## Setup
+## Setup :arrow_forward:
 
 - Clone the repo locally
 
@@ -39,3 +39,21 @@ alias todos='$HOME/todos.sh'
 mkdir ~/Documents/notes
 mkdir ~/Documents/notes/notes
 ```
+
+## Usage :memo:
+
+### Create a note
+
+Create a note using the command `note`
+
+### Creating a todo
+
+Todos can be created using markdown syntax
+
+```
+- [ ] My first todo
+```
+
+### Listing all todos
+
+The command `todos` will list all todos which haven't been completed
