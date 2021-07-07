@@ -16,6 +16,7 @@ cd note-taking
 ```bash
 chmod +x todos.sh
 chmod +x vimNotes.sh
+chmod +x currentNote.sh
 ```
 
 - Copy [todos.sh](./todos.sh) & [vimNotes.sh](./vimNotes.sh) into the home directory
@@ -23,6 +24,7 @@ chmod +x vimNotes.sh
 ```bash
 cp todos.sh ~/
 cp vimNotes.sh ~/
+cp currentNote.sh ~/
 ```
 
 - Copy the following lines into your bash profile
@@ -31,6 +33,7 @@ cp vimNotes.sh ~/
 alias note='$HOME/vimNotes.sh'
 alias notes='code $HOME/Documents/notes'
 alias todos='$HOME/todos.sh'
+alias mynote='$HOME/currentNote.sh'
 ```
 
 - Create the directories `~/Documents/notes` & `~/Documents/notes/notes`
